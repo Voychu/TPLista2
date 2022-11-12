@@ -6,7 +6,7 @@ public class Towar {
     public double cena;
 
     //konstruktor
-    Towar(int cena, String nazwa)
+    Towar(String nazwa, double cena)
         {
         this.nazwa = nazwa;
         this.cena = cena;
@@ -16,5 +16,9 @@ public class Towar {
     public double PodajCene()
         {
         return cena;
+        }
+    public String PodajNazwe()
+        {
+        return nazwa;
         }
 }

@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b3d8d81-d5b4-458d-81a8-5c16781ae685" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Faktura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Klient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Towar.java" afterDir="false" />
+    <list default="true" id="2b3d8d81-d5b4-458d-81a8-5c16781ae685" name="Changes" comment="Pierwsze tworzenie klas konstruktorów bez kombinowania">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Faktura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Faktura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Klient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Towar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Towar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,8 +68,21 @@
       <workItem from="1667244313943" duration="199000" />
       <workItem from="1667244603479" duration="95000" />
       <workItem from="1667244918329" duration="122000" />
-      <workItem from="1667574307822" duration="3021000" />
+      <workItem from="1667574307822" duration="3563000" />
+      <workItem from="1668019231929" duration="159000" />
+      <workItem from="1668183452546" duration="814000" />
+      <workItem from="1668251076040" duration="3341000" />
+      <workItem from="1668257043388" duration="216000" />
+      <workItem from="1668267529506" duration="1562000" />
     </task>
+    <task id="LOCAL-00001" summary="Pierwsze tworzenie klas konstruktorów bez kombinowania">
+      <created>1667589853835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667589853835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,10 +93,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pierwsze tworzenie klas konstruktorów bez kombinowania" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pierwsze tworzenie klas konstruktorów bez kombinowania" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
