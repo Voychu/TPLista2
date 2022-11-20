@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b3d8d81-d5b4-458d-81a8-5c16781ae685" name="Changes" comment="Pierwsze tworzenie klas konstruktorów bez kombinowania">
+    <list default="true" id="2b3d8d81-d5b4-458d-81a8-5c16781ae685" name="Changes" comment="Pierwsze próby całości, metody w klasach, obliczanie kwot i generowanie faktury w mainie, bez odp. metody">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FakturaBazaDanych.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Zadanie2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FakturaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Element.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Faktura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Faktura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Klient.java" afterDir="false" />
@@ -20,6 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,18 +51,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_directory_selection": "/home/wojtek/IdeaProjects/Faktury/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +90,12 @@
       <workItem from="1668183452546" duration="814000" />
       <workItem from="1668251076040" duration="3341000" />
       <workItem from="1668257043388" duration="216000" />
-      <workItem from="1668267529506" duration="1562000" />
+      <workItem from="1668267529506" duration="3528000" />
+      <workItem from="1668287881545" duration="1040000" />
+      <workItem from="1668539509634" duration="1537000" />
+      <workItem from="1668637870215" duration="111000" />
+      <workItem from="1668688640488" duration="1480000" />
+      <workItem from="1668949660343" duration="10604000" />
     </task>
     <task id="LOCAL-00001" summary="Pierwsze tworzenie klas konstruktorów bez kombinowania">
       <created>1667589853835</created>
@@ -82,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667589853835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pierwsze próby całości, metody w klasach, obliczanie kwot i generowanie faktury w mainie, bez odp. metody">
+      <created>1668269327982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668269327982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pierwsze tworzenie klas konstruktorów bez kombinowania" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pierwsze tworzenie klas konstruktorów bez kombinowania" />
+    <MESSAGE value="Pierwsze próby całości, metody w klasach, obliczanie kwot i generowanie faktury w mainie, bez odp. metody" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pierwsze próby całości, metody w klasach, obliczanie kwot i generowanie faktury w mainie, bez odp. metody" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

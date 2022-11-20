@@ -3,11 +3,11 @@ package org.example;
 public class Element {
 
     //metoda
-    public int ilosc;
-    public Towar towar;
+    private int ilosc;
+    private Towar towar;
 
     //konstruktor
-    Element(int ilosc, Towar towar)
+    Element(final int ilosc, final Towar towar)
     {
         this.ilosc = ilosc;
         this.towar = towar;
@@ -21,5 +21,13 @@ public class Element {
     public String PodajNazweTowaru()
         {
         return towar.PodajNazwe();
+        }
+    public int ZwrocIlosc()
+        {
+        return ilosc;
+        }
+    public Towar UtworzTowar(final String nazwa, final double cena)
+        {
+        return new Towar(nazwa, cena);
         }
 }

@@ -2,11 +2,11 @@ package org.example;
 
 public class Towar {
     //pola
-    public String nazwa;
-    public double cena;
+    private transient String nazwa;
+    private transient double cena;
 
     //konstruktor
-    Towar(String nazwa, double cena)
+    Towar(final String nazwa, final double cena)
         {
         this.nazwa = nazwa;
         this.cena = cena;

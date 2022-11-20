@@ -1,28 +1,42 @@
 package org.example;
 
+
 public class Faktura {
     //pola
-    public int numer;
-    public String data;
-    public String sprzedawca;
-    public Element[] elementy;
+    private int numer;
+    private Element[] elementy;
+
 
     //konstruktor
-    Faktura(int numer, Element[] elementy)
-    {
+    Faktura(final int numer, final Element[] elementy)
+        {
         this.numer = numer;
         this.elementy = elementy;
-
+        }
+    public int ZwrocNumer()
+        {
+        return numer;
+        }
+    public Element[] ZwrocElementy()
+    {
+        return elementy;
     }
 
     //metody
-    public double ObliczKwoteBrutto(Element[] elementy)
+    public double ObliczKwoteBrutto()
         {
-        double calosc_kwota = 0;
+        double caloscKwota = 0;
         for(int i=0; i<elementy.length; i++)
             {
-            calosc_kwota = calosc_kwota + elementy[i].ObliczElement();
+            caloscKwota = caloscKwota + elementy[i].ObliczElement();
             }
-        return calosc_kwota;
+        return caloscKwota;
         }
+
+    public Element UtworzElement(int ilosc, Towar towar)
+        {
+        return new Element(ilosc, towar);
+        }
+
+
 }
